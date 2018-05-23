@@ -1,0 +1,32 @@
+<!-- Requirements:
+
+1. Create an HTML file that has two input fields to accept the two numbers to perform operations on.
+2. Create 4 buttons to perform each of the basic mathematical functions (add, subtract, multiply, divide).
+3. In your JavaScript, put an event listener on each of the buttons.
+4. When the user performs one of the operations, output the result to another DOM element of your choice. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculator</title>
+</head>
+<body>
+    <h2>Calculator</h2>
+    <form name="Calculator">
+    First number: <input type="number" id="fnumber"><br>
+    Second number: <input type="number" id="snumber"><br>
+   <input type="button"  id="div" Value="Divide"/>
+   <input type="button"  id="mult" Value="Multiply"/>
+   <input type="button"  id="add" Value="Add"/>
+   <input type="button"  id="sub" Value="Subtract"/>
+   
+   <p>The Result is: <br>
+    <span id ="result"></span>
+   </p>
+   <script src="simple-calc.js"></script>
+   </form>
+</body>
+</html>
